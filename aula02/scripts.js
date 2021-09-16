@@ -25,7 +25,6 @@ async function Converter() {
   }
 }
 
-
 async function getCotacao(moedaDe, moedaPara) {
   await fetch(`https://economia.awesomeapi.com.br/json/all/${moedaDe}-${moedaPara}`)
   .then(response => {return response.json()})
