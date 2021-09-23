@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background-color: #ECF4FF;
+  color: #1C1C1C;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 64px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.perfil .perfil-foto {
+  border-radius: 400px;
+  max-width: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos ul {
+  list-style-type: none;
+}
+
+.projetos ul li {
+  margin: 15px;
+}
+
+.projetos ul li a {
+  text-decoration: none;
+  color: #1C1C1C;
+  padding: 10px;
+  border-radius: 10px;
+  transition: .2s;
+}
+
+.projetos ul li a:hover {
+  color: #FFF;
+  background-color: #3468A7;
+}
